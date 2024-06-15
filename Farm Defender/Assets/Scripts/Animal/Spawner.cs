@@ -26,4 +26,5 @@ public class Spawner : MonoBehaviour
         Vector3 animalSpawnPosition = new Vector3(Random.Range(-spawnX, spawnX), 0, spawnZ);
         Instantiate(animalPrefabs[animalArrayIndex], animalSpawnPosition, animalPrefabs[animalArrayIndex].transform.rotation);
     }
+
 }

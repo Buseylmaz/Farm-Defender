@@ -56,9 +56,15 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Player\PlayerMove.cs" />
-    <Compile Include="Assets\Scripts\Animal\AnimalMove.cs" />
     <Compile Include="Assets\Scripts\Animal\Spawner.cs" />
+    <Compile Include="Assets\Scripts\Game\GameOver.cs" />
+    <Compile Include="Assets\Scripts\Animal\AnimalMove.cs" />
+    <Compile Include="Assets\Scripts\Game\HeartManegar.cs" />
+    <Compile Include="Assets\Scripts\Player\PlayerMove.cs" />
+    <Compile Include="Assets\Scripts\Food\FoodDetectCollisions.cs" />
+    <Compile Include="Assets\Scripts\Player\PlayerThrowingFood.cs" />
+    <Compile Include="Assets\Scripts\Food\FoodMove.cs" />
+    <Compile Include="Assets\Scripts\Player\PlayerCollision.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Asset\_Source_Files\_LICENSE.txt" />

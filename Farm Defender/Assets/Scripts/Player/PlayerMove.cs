@@ -4,15 +4,21 @@ using UnityEngine;
 
 public class PlayerMove : MonoBehaviour
 {
+    [Header("Point(X-Z")]
     [SerializeField] float xPoint;
     [SerializeField] float zPoint;
+
+    [Space]
+
+    [Header("Player Speed")]
     [SerializeField] float playerSpeed;
+
 
 
     private void Update()
     {
         MovePlayer();
-        BorderLimit();
+        BorderLimit();     
     }
 
     private void MovePlayer()
@@ -48,4 +54,8 @@ public class PlayerMove : MonoBehaviour
             transform.position = new Vector3(transform.position.x, transform.position.y, -zPoint);
         }
     }
+
+
+
+    
 }

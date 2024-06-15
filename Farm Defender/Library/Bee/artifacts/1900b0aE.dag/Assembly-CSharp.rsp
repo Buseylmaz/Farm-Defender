@@ -347,7 +347,13 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/Scripts/Animal/AnimalMove.cs"
 "Assets/Scripts/Animal/Spawner.cs"
+"Assets/Scripts/Food/FoodDetectCollisions.cs"
+"Assets/Scripts/Food/FoodMove.cs"
+"Assets/Scripts/Game/GameOver.cs"
+"Assets/Scripts/Game/HeartManegar.cs"
+"Assets/Scripts/Player/PlayerCollision.cs"
 "Assets/Scripts/Player/PlayerMove.cs"
+"Assets/Scripts/Player/PlayerThrowingFood.cs"
 -langversion:9.0
 
 /deterministic

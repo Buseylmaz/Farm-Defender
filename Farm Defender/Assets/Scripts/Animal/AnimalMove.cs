@@ -7,8 +7,10 @@ public class AnimalMove : MonoBehaviour
     [Header("Animal Speed")]
     [SerializeField] float animalSpeed;
 
+
     private void Update()
     {
         transform.Translate(Vector3.forward * animalSpeed * Time.deltaTime);
     }
+
 }
