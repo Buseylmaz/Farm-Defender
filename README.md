@@ -1,7 +1,7 @@
-### FARM DEFENDER 
+# **FARM DEFENDER**
 This game is a project I developed as part of the "Unity Learn Junior Programmer" program. It was created with the aim of improving my skills. Additional features have been added to the project: a game over scene, and animals can only disappear if they are fed with the correct food (cow=apple, dog=bone, and horse=carrot), otherwise the player will die.
 
-# How To Play
+## **How To Play**
 Basic Features
  * Limited Player Movement: The player can move within certain boundaries in the right, left, up, and down directions.
  * Animals: Animals are spawned at intervals and move forward.
@@ -14,5 +14,5 @@ The project includes the following additional features:
  * Difficulty Level: The player must avoid hitting the animals, prevent them from passing beyond the boundary, and find the correct keys on the keyboard.
 
 
-# Unity Version
+## **Unity Version**
 2021.3.30f1 LTS
